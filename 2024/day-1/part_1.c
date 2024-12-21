@@ -10,7 +10,7 @@ int main(void) {
   FILE *file = fopen("input", "r");
 
   if (!file) {
-    perror("File error:");
+    perror("File error");
 
     return EXIT_FAILURE;
   }
